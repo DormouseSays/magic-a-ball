@@ -1,0 +1,33 @@
+{
+  "fetchedAt": "2026-09-16T23:18:52.449Z",
+  "entries": [
+    {
+      "answer": "This is the way",
+      "person": "Standard"
+    },
+    {
+      "answer": "Unclear",
+      "person": "Standard"
+    },
+    {
+      "answer": "Ask Again",
+      "person": "Standard"
+    },
+    {
+      "answer": "Of course",
+      "person": "Standard"
+    },
+    {
+      "answer": "This is the way",
+      "person": "Eric"
+    },
+    {
+      "answer": "Order a Manahttan and think about it",
+      "person": "Eric"
+    },
+    {
+      "answer": "Yes, with cupcakes",
+      "person": "Tiff"
+    }
+  ]
+}

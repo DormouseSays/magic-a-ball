@@ -1,0 +1,17 @@
+{
+  "name": "magic-a-ball",
+  "version": "1.0.0",
+  "description": "Mobile Magic 8 Ball whose answers come from a public Google Sheet",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "fetch": "node src/fetch-answers.js",
+    "start": "node src/server.js",
+    "dev": "npm run fetch && npm start"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "",
+  "license": "ISC"
+}
