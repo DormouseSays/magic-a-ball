@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-16T23:18:52.449Z",
+  "fetchedAt": "2026-09-16T23:58:15.338Z",
   "entries": [
     {
       "answer": "This is the way",
@@ -28,6 +28,46 @@
     {
       "answer": "Yes, with cupcakes",
       "person": "Tiff"
+    },
+    {
+      "answer": "What would Tiff do?",
+      "person": "Standard"
+    },
+    {
+      "answer": "What would J.T. do?",
+      "person": "Standard"
+    },
+    {
+      "answer": "What would Eric do?",
+      "person": "Standard"
+    },
+    {
+      "answer": "What would Kurt do?",
+      "person": "Standard"
+    },
+    {
+      "answer": "What would Mom say?",
+      "person": "Standard"
+    },
+    {
+      "answer": "Question unclear. Shake again.",
+      "person": "Standard"
+    },
+    {
+      "answer": "Eat Cake",
+      "person": "Tiff"
+    },
+    {
+      "answer": "Eat Sticky Toffee Pudding",
+      "person": "Tiff"
+    },
+    {
+      "answer": "Grogu says yes",
+      "person": "Standard"
+    },
+    {
+      "answer": "*Panic*",
+      "person": "Standard"
     }
   ]
 }
