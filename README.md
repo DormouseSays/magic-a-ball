@@ -45,6 +45,8 @@ No dependencies; needs Node 18+ for built-in `fetch`.
 
 ## Mobile details
 
+- Loads showing the "8" side; shaking rattles the ball, then spins it around to
+  the answer window. Changing the person turns the "8" back to the front.
 - Sized with `dvh`-friendly flex layout and safe-area insets, so it fits notched screens
 - Shake the physical phone to ask (iOS shows an "Enable shake-to-ask" button first,
   since it requires a permission prompt from a user gesture)
