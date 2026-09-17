@@ -31,6 +31,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Refresh answers.json from the Google Sheet
+        # Bakes the current sheet contents into the offline fallback file. The
+        # page still reads the sheet live in the browser, so if the sheet is
+        # unreachable here we deploy with the copy committed to the repo rather
+        # than failing the release.
+        continue-on-error: true
+        run: npm run fetch
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
